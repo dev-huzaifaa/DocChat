@@ -1,0 +1,9 @@
+pypdf
+chromadb
+env
+openai
+ddgs
+fastapi
+uvicorn
+python-multipart
+onxruntime
