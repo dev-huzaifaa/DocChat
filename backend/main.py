@@ -3,7 +3,6 @@ import shutil
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks, Depends
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from database import SessionLocal, engine
 from models import Base, Document
@@ -182,4 +181,3 @@ async def chat_stream(req: ChatRequest):
             "Connection": "keep-alive",
         },
     )
-app.mount("/", StaticFiles(directory="static", html=True), name="static")

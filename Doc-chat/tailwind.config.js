@@ -4,18 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: {
-          DEFAULT: "#4C6EF5",
-          hover: "#3D5BD7",
-          light: "#EAF0FF",
-          dark: "#14213D",
-        },
-        "light-base": "#F5F5F4",
-        "light-surface": "#FCFCFB",
-        "light-border": "#E7E5E4",
-        "dark-base": "#0F1115",
-        "dark-surface": "#171A21",
-        "dark-border": "#2B313D",
+        "light-base": "#FAFAF9",
+        "light-surface": "#FFFFFF",
+        "light-border": "#E7E5E2",
+
+        "dark-base": "#0C0B0F",
+        "dark-surface": "#15141A",
+        "dark-border": "#27252E",
+
+        accent: "#6D5CE7",
+        "accent-hover": "#5B4BD6",
       },
       fontFamily: {
         display: ["Space Grotesk", "sans-serif"],
